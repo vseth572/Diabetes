@@ -20,7 +20,7 @@ imputer = SimpleImputer(missing_values =np.nan,strategy ='mean')
 # d1['BloodPressure'].fillna(d1['BloodPressure'].mean())
 # d1['Insulin'].fillna(d1['Insulin'].mean())
 # d1['BMI'].fillna(d1['BMI'].mean())
-
+# test comment
 print(d1['SkinThickness'].isnull().values.any())
 #printing the correlation matrix
 corrMatrix = d1.corr()
